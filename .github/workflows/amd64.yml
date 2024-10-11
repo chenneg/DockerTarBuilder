@@ -17,7 +17,6 @@ jobs:
 
     - name: Clean up Docker to free space
       run: |
-          echo "Cheng220149" | docker login --username unravele@yeah.net --password-stdin
           docker system prune -a -f
           docker volume prune -f
 
